@@ -1,0 +1,45 @@
+#bonno_heading_meta_box label,
+#bonno_post_sidebar_meta_box label {
+	display: block;
+	margin-bottom: 3px;
+	width: 100%;
+}
+
+#bonno_heading_meta_box div {
+	margin-top: 10px;
+}
+
+#bonno_heading_meta_box input[type="text"] {
+	margin-bottom: 3px;
+	width: 100%;
+}
+
+#bonno_heading_meta_box .image {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#bonno_heading_meta_box img[src=""] {
+	display: none;
+}
+
+#bonno_heading_meta_box img {
+	cursor: pointer;
+	max-width: 100%;
+}
+
+#bonno_heading_meta_box .buttons {
+	text-align: left;
+}
+
+#bonno_heading_delete_icon {
+	display: none;
+}
+
+#bonno_heading_meta_box .file-loaded #bonno_heading_upload_icon {
+	display: none;
+}
+#bonno_heading_meta_box .file-loaded #bonno_heading_delete_icon {
+	display: inline;
+}
+

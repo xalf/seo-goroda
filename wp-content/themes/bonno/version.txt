@@ -1,0 +1,66 @@
+Bonno - Multipurpose WordPress Theme
+
+Version 1.25 (July 29, 2016)
+---
+Updated. Divider shortcode updated to have a solid button as an option.
+
+Version 1.24 (April 27, 2016)
+---
+Fixed. Media uploader for logo and other images.
+
+Version 1.23 (April 26, 2016)
+---
+Updated. Admin image uploads redefined.
+
+Version 1.22 (April 9, 2016)
+---
+Updated. Gallery hovers behavior.
+
+Version 1.21 (January 19, 2016)
+---
+Fixed. Google Analitics issue
+
+Version 1.20 (December 12, 2015)
+---
+Fixed. Buttons hovers on mobile devices.
+
+
+Version 1.19 (December 1, 2015)
+---
+Fixed. Google Fotn URL encoding.
+
+
+Version 1.18 (December 1, 2015)
+---
+Fixed. Removed content transition on preloader disabling.
+
+
+Version 1.17 (November 22, 2015)
+---
+Updated. Demo data
+
+Version 1.16 (October 30, 2015)
+---
+Fixed. Missed docs.
+
+
+Version 1.15 (September 21, 2015)
+---
+Fixed. Google map rendering fixed.
+
+Version 1.0.14 (June 29, 2015)
+---
+Fixed. Minor theme fixes.
+
+
+Version 1.0.13 (April 21, 2015)
+---
+Added. Ability to open button link in new tab/window
+
+Version 1.0.12 (March 11, 2015)
+---
+Bugfix. Allow to click menu parents links in responsive menu.
+
+Version 1.0 (June 30, 2014)
+---
+First Release

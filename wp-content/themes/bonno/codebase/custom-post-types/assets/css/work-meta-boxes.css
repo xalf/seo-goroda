@@ -1,0 +1,44 @@
+#bonno_work_top_text_meta_box label {
+	float: left;
+	width: 50%;
+}
+
+#bonno_work_top_text_meta_box textarea {
+	max-width: 49%;
+	min-width: 49%;
+	min-height: 100px;
+	margin: 10px 0;
+	width: 49%;
+	vertical-align: top;
+}
+
+#bonno_work_top_text_meta_box textarea.last {
+	margin-left: 1%;
+}
+
+#bonno_work_bottom_text_meta_box label {
+	float: left;
+	width: 50%;
+}
+
+#bonno_work_bottom_text_meta_box input[type="text"],
+#bonno_work_bottom_text_meta_box textarea {
+	max-width: 49%;
+	min-width: 49%;
+	margin: 10px 0;
+	width: 49%;
+	vertical-align: top;
+}
+
+#bonno_work_bottom_text_meta_box textarea {
+	margin-left: 1%;
+	min-height: 100px;
+}
+
+#work-top-text {
+	display: none;
+}
+
+#work-bottom-text {
+	display: none;
+}

@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 !important;
+	position: relative;
+}
+
+a,
+a:link,
+a:hover {
+	color: #e7543d !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.edit-link {
+	display: none;
+}
+
+label:hover .edit-link {
+	display: inline;
+}
+.menu {
+	background: #292929;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 120px;
+}
+
+.menu a,
+.menu a:link {
+	color: #fff !important;
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+	-webkit-transition: all 100ms linear;
+	-moz-transition: all 100ms linear;
+	transition: all 100ms linear;
+}
+
+.preloader {
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+}
+
+.menu a:hover,
+.menu a.active {
+	background-color: #fff;
+	color: #292929 !important;
+}
+
+.show-on-load {
+	display: none;
+}
+#bonno-shortcodes-container {
+	margin-left: 120px;
+	padding: 0 10px 5px;
+}
+table {
+	width: 100%;
+}
+
+table th,
+table tr {
+	vertical-align: top;
+}
+
+table tr th {
+	padding-top: 10px;
+}
+
+table tr td {
+	border-bottom: 1px solid #D2D1D1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table tr:last-child td {
+	border: none;
+}
+
+table th.label {
+	text-align: left;
+	width: 100px
+}
+
+table .info {
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.button,
+.button:link,
+.button:hover {
+	display: inline-block;
+	color: #fff !important;
+	background-color: #e7543d;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px 7px;
+	text-decoration: none;
+	-webkit-transition: background-color 100ms linear;
+	-moz-transition: background-color 100ms linear;
+	transition: background-color 100ms linear;
+}
+
+.button:hover {
+	background-color: #ED8474;
+}
+
+.param {
+	margin-bottom: 10px;
+}
+
+.param h4,
+.default-icons h4 {
+	color: #222;
+	padding: 0 0 3px 0;
+}
+
+.list label {
+	display: block;
+}
+
+.default-icons h4 {
+	margin-bottom: 10px;
+}
+
+.default-icons input{
+	display: none;
+}
+
+input[type="text"] {
+	border: 1px solid #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	clear: both;
+	color: #666;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 5px 8px;
+	transition: border-color 0.05s ease-in-out 0s;
+	width: 100%;
+}
+
+input[type="text"]:focus {
+	border-color: #999;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	-moz-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+}
+
+.icons {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+label {
+	cursor: pointer;
+}
+.icons label {
+	float: left;
+	overflow: hidden;
+}
+
+.middle.icons label {
+	height: 100px;
+	width: 120px
+}
+
+.middle.icons input {
+	float: left;
+}
+
+.middle.icons .image {
+	float: left;
+	height: 100px;
+	padding: 0 10px;
+	text-align: center;
+	width: 80px;
+}
+
+.middle.icons .image img {
+	max-width: 100%;
+	height: auto !important;
+	line-height: 100px;
+}
+
+.full.icons .image img {
+	max-width: auto;
+}
+.default-icons .middle .image {
+	padding: 0;
+	width: 120px;
+}
+
+.sortable-contaner .ui-sortable-helper {
+	opacity: .7;
+}
+
+.sortable-contaner label {
+	cursor: move;
+}
+
+.fa-icons .image {
+	color: #999;
+	display: inline-block;
+	font-family: 'FontAwesome';
+	font-size: 20px;
+	padding: 0 5px 5px 0;
+}
+
+.bonno-fa-wrapper {
+	border: 1px solid #aaa;
+	padding: 5px 9px;
+	margin: 3px;
+	line-height: 2.2em;
+}
+
+.bonno-fa-wrapper:hover {
+	background: #aaa;
+	color: #fff;
+}
+
+.bonno-fa-wrapper:hover span {
+	color: #fff;
+}
+
+.bonno-fa-wrapper span {
+	vertical-align: middle;
+}
+
+.ui-state-highlight {
+	border: 1px dashed #999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

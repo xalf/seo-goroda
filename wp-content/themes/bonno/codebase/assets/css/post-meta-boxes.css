@@ -1,0 +1,15 @@
+#bonno_post_header_meta_box label,
+#bonno_post_sidebar_meta_box label {
+	display: block;
+	margin-bottom: 3px;
+	width: 100%;
+}
+
+#bonno_post_header_meta_box div {
+	margin-top: 10px;
+}
+
+#bonno_post_header_meta_box input[type="text"] {
+	margin-bottom: 3px;
+	width: 100%;
+}
